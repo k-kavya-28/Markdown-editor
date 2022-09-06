@@ -1,0 +1,23 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-kavya-28/Markdown-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-kavya-28/Markdown-editor/issues"
+  },
+  "homepage": "https://github.com/k-kavya-28/Markdown-editor#readme",
+  "dependencies": {
+    "showdown": "^2.1.0"
+  }
+}
