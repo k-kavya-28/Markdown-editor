@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/k-kavya-28/Markdown-editor#readme",
   "dependencies": {
+    "marked": "^4.1.0",
     "showdown": "^2.1.0"
   }
 }

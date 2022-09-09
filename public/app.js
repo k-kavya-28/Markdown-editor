@@ -1,8 +1,10 @@
 const textEditor = document.querySelector(".text-editor");
 const preview = document.querySelector(".preview");
-const converter = new showdown.Converter();
+const { marked } = require('marked');
 const renderPreview = (value) => {
-    const html = converter.makeHtml(value);
+    const html = marked.parse('# Marked in Node.js\n\nRendered by **marked**.');
+    document.getElementById('text-editor').innerHTML =
+      marked.parse('# Marked in browser\n\nRendered by **marked**.');
     preview.innerText = html;
     console.log(html);
 }
